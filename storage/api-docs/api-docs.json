@@ -1,0 +1,21 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "Prueba FS - API",
+        "description": "API de Productos y Categorías",
+        "version": "1.0.0"
+    },
+    "paths": {
+        "/api/docs/ping": {
+            "get": {
+                "summary": "Ping the API",
+                "operationId": "453c89930006702d256004af61a6b1f8",
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    }
+                }
+            }
+        }
+    }
+}
